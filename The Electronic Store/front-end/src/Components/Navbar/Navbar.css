@@ -1,0 +1,332 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185) !important;
+    background-color: var(--col2) !important;
+}
+
+nav .h1 {
+    color: white !important;
+    margin-right: 200px !important;
+    font-size: 30px !important;
+    padding-left: 20px;
+}
+
+nav .h1:hover {
+    color: var(--col4) !important;
+}
+
+nav .simg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: var(--col1);
+}
+
+nav .simg:hover {
+    color: var(--col4);
+}
+
+nav .s1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collap{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.second{
+    margin: 15px !important;
+}
+
+nav .searchbar {
+    display: flex;
+    border: none;
+    box-shadow: 0 0 10px rgba(251, 249, 249, 0.532);
+    width: 360px;
+    background-color: white;
+    margin: 15px 15px 15px 0 !important;
+}
+
+nav .searchbar input {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+nav .searchbar svg {
+    color: black;
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+nav .searchbar button {
+    border: none;
+    outline: none;
+    background-color: var(--col4);
+    cursor: pointer;
+}
+
+nav .searchbar svg:hover {
+    color: var(--col3);
+}
+
+nav .s1 .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .cart {
+    position: relative;
+    margin: 0 20px;
+}
+
+nav .cart .qty {
+    color: var(--col2);
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+/* Cart Dropdown */
+
+.shopping {
+    display: inline-block;
+    z-index: 9999;
+}
+
+.shopping .shopping-item {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 300px;
+    background: #fff;
+    padding: 20px 25px;
+    transition: all 0.3s ease 0s;
+    transform: translateY(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+
+.shopping:hover .shopping-item {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.shopping .dropdown-cart-header {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.shopping .dropdown-cart-header span {
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.shopping .dropdown-cart-header p {
+    float: right;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.shopping .dropdown-cart-header p:hover {
+    color: var(--col4);
+}
+
+.shopping-list li {
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.shopping-list li .remove {
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    margin-top: -20px;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: black !important;
+    border-radius: 0;
+    font-size: 11px;
+}
+
+.shopping-list li .remove:hover {
+    color: var(--col4) !important;
+}
+
+.shopping-list .cart-img {
+    float: right;
+    border: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.shopping-list .cart-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+}
+
+.shopping-list .cart-img:hover img {
+    transform: scale(1.09);
+}
+
+.shopping-list .quantity {
+    line-height: 22px;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+.shopping-list h4 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+    cursor: pointer;
+}
+
+.shopping-list h4:hover {
+    color: var(--col4);
+}
+
+.shopping-item .bottom {
+    text-align: center;
+}
+
+.shopping-item .total {
+    overflow: hidden;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.shopping-item .total span {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+    float: left;
+}
+
+.shopping-item .total .total-amount {
+    float: right;
+    font-size: 14px;
+}
+
+.shopping-item .bottom .btn {
+    background: black;
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shopping-item .bottom .btn:hover {
+    background: var(--col4);
+    color: #fff;
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: none !important;
+}
+
+.second .dropdown-menu{
+    left: -140px !important;
+    top: 40px !important;
+}
+
+.text-bg {
+    color: #fff!important;
+    background-color: black !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white !important;
+}
+
+/* Cart Dropdown */
+
+nav .s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 6px;
+    gap: 10px;
+}
+
+nav #dropdown-basic {
+    background-color: black !important;
+    border: none !important;
+}
+
+.dm{
+    border-radius: 0 !important;
+}
+
+nav .dd {
+    padding-top: 3px;
+    display: flex;
+    gap: 6px;
+}
+
+nav .menu {
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav .menu:hover {
+    color: var(--col4);
+}
+
+nav .box1{
+    color: white !important;
+}
+
+nav .box1:hover {
+    color: var(--col4) !important;
+}
+
+@media screen and (max-width: 768px) {
+    nav .h1 {
+        padding-left: 10px;
+        font-size: 24px !important;
+        margin-right: 0px !important;
+    };
+}

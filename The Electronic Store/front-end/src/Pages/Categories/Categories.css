@@ -1,0 +1,13 @@
+.head{
+    margin: 120px 0 40px 0; 
+}
+
+.head .card{
+    border: none !important;
+}
+
+.product{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
