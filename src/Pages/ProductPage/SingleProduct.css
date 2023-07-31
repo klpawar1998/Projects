@@ -1,0 +1,103 @@
+.cardcss{
+    border: none !important;
+    margin: 80px 40px 40px 40px !important;
+    
+}
+
+.details-card {
+    width: 100%;
+    overflow: hidden;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 50px !important;
+}
+
+.details-card .itemimg {
+    object-fit: cover !important;
+}
+
+.details-card .itemimg img {
+    width: 100%;
+    height: 100%;
+    padding: 40px !important;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.29);
+}
+
+.description-container {
+    position: relative;
+}
+
+.main-description h3 {
+    font-size: 2rem;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-counter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.text-counter {
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.bcounter {
+    background-color: black;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.bcounter:hover {
+    background-color: var(--col4) !important;
+}
+
+.add-inputs .btn {
+    border-radius: 0 !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.add-inputs .btn:hover {
+    background-color: var(--col4) !important;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.8rem;
+}
+
+.social-list {
+    padding: 0;
+    list-style: none;
+}
+
+.social-list li {
+    float: left;
+    padding: 6px 8px;
+    margin-right: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.social-list li:hover {
+    color: var(--col4);
+}

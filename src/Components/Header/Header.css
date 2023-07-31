@@ -1,0 +1,48 @@
+.topbar {
+	border: none;
+	padding: 12px 0px;
+}
+
+.topbar .top-left .list-main li:first-child{
+	padding-left:0;
+}
+
+.topbar .top-left .list-main li i{
+	display: inline-block;
+	margin-right: 4px;
+	font-size: 15px;
+	color: #F7941D;
+	position: relative;
+	top: 3px;
+}
+
+.topbar .right-content{
+	float:right;
+}
+
+.topbar .list-main li {
+	display: inline-block;
+	color: #333;
+	font-size: 13px;
+	font-weight: 500;
+	border-right: 1px solid #f0f0f0;
+	padding: 0px 13px;
+}
+.topbar .list-main li i {
+	display: inline-block;
+	margin-right: 4px;
+	font-size: 15px;
+	color: #F7941D;
+	position: relative;
+	top: 1px;
+}
+.topbar .list-main li:last-child{
+	padding-right:0;
+	border:none;
+}
+.topbar .list-main li a{
+	color:#333;
+}
+.topbar .list-main li a:hover{
+	color:#F7941D;
+}

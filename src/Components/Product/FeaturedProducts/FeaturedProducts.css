@@ -1,0 +1,35 @@
+/* Single Product */
+
+.featured {
+	margin: 20px 40px !important;
+}
+.e{
+	border: none !important;
+	width: 100% !important;
+	border-radius: 0 !important;
+}
+
+.featured h2 {
+	font-size: 22px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #2c2d3f;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.featured h2::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background: var(--col4);
+	left: 48%;
+	bottom: -1px;
+}
+

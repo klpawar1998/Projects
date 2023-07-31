@@ -1,0 +1,79 @@
+.mrg{
+    background-color: black;
+    padding: 40px 0;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    padding: 0 50px !important; 
+}
+
+.services .card{
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.services .single-service{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services .single-service svg{
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+    color: white !important;
+}
+
+.services h4{
+    font-size: 15px;
+    color: white !important;
+}
+
+.services span{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.498) !important;
+}
+
+
+
+/* .shop-services {
+    padding: 50px 0;
+    background: rgb(239, 237, 237);
+    width: 100%;
+}
+
+.services{
+    width: 100%;
+}
+
+.services .single-service {
+    width: 20% !important;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services .single-service svg {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.services .single-service h4 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.services .single-service span {
+    color: #000000;
+    font-size: 12px;
+} */
